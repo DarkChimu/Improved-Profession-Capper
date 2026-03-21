@@ -1,5 +1,6 @@
 # Kiro IDE
 .kiro/
+.agents/
 
 # VS Code
 .vscode/
@@ -10,3 +11,6 @@
 # OS files
 .DS_Store
 Thumbs.db
+
+//skills
+skills-lock.json
