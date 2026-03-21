@@ -1,0 +1,12 @@
+# Kiro IDE
+.kiro/
+
+# VS Code
+.vscode/
+
+# Distribution packages
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
