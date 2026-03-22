@@ -12,5 +12,8 @@
 .DS_Store
 Thumbs.db
 
-//skills
+# skills
 skills-lock.json
+
+# tmp
+tmp/
