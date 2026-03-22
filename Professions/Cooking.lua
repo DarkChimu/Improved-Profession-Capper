@@ -5,15 +5,15 @@ local shouldCraft, shouldCraftRecipe;
 addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
     if rank > 0 and rank < 20 then -- 1-19
         shouldCraft = {
-            "Spice Bread",
-            "Herb Baked Egg",
-            "Charred Wolf Meat",
-            "Roasted Boar Meat",
-            "Brilliant Smallfish",
-            "Crispy Bat Wing",
-            "Lynx Steak",
-            "Slitherskin Mackerel",
-            "Roasted Moongraze Tenderloin"
+            37836, -- Spice Bread
+            8604,  -- Herb Baked Egg
+            2538,  -- Charred Wolf Meat
+            2540,  -- Roasted Boar Meat
+            7751,  -- Brilliant Smallfish
+            15935, -- Crispy Bat Wing
+            33276, -- Lynx Steak
+            7752,  -- Slitherskin Mackerel
+            33277, -- Roasted Moongraze Tenderloin
         };
         shouldCraftRecipe = {
             "1x Simple Flour, 1x Mild Spices", -- Spice Bread
@@ -28,16 +28,16 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 19 and rank < 40 then -- 20-39
         shouldCraft = {
-            "Spice Bread",
-            "Scorpid Surprise",
-            "Herb Baked Egg",
-            "Charred Wolf Meat",
-            "Roasted Boar Meat",
-            "Brilliant Smallfish",
-            "Crispy Bat Wing",
-            "Lynx Steak",
-            "Slitherskin Mackerel",
-            "Roasted Moongraze Tenderloin"
+            37836, -- Spice Bread
+            6413,  -- Scorpid Surprise
+            8604,  -- Herb Baked Egg
+            2538,  -- Charred Wolf Meat
+            2540,  -- Roasted Boar Meat
+            7751,  -- Brilliant Smallfish
+            15935, -- Crispy Bat Wing
+            33276, -- Lynx Steak
+            7752,  -- Slitherskin Mackerel
+            33277, -- Roasted Moongraze Tenderloin
         };
         shouldCraftRecipe = {
             "1x Simple Flour, 1x Mild Spices", -- Spice Bread
@@ -53,15 +53,15 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 39 and rank < 45 then -- 40-44
         shouldCraft = {
-            "Scorpid Surprise",
-            "Herb Baked Egg",
-            "Charred Wolf Meat",
-            "Roasted Boar Meat",
-            "Brilliant Smallfish",
-            "Crispy Bat Wing",
-            "Lynx Steak",
-            "Slitherskin Mackerel",
-            "Roasted Moongraze Tenderloin"
+            6413,  -- Scorpid Surprise
+            8604,  -- Herb Baked Egg
+            2538,  -- Charred Wolf Meat
+            2540,  -- Roasted Boar Meat
+            7751,  -- Brilliant Smallfish
+            15935, -- Crispy Bat Wing
+            33276, -- Lynx Steak
+            7752,  -- Slitherskin Mackerel
+            33277, -- Roasted Moongraze Tenderloin
         };
         shouldCraftRecipe = {
             "1x Scorpid Stinger", --------------- Scorpid Surprise
@@ -76,9 +76,9 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 44 and rank < 50 then -- 45-49
         shouldCraft = {
-            "Smoked Bear Meat",
-            "Scorpid Surprise",
-            "Spiced Wolf Meat"
+            8607, -- Smoked Bear Meat
+            6413, -- Scorpid Surprise
+            2539, -- Spiced Wolf Meat
         };
         shouldCraftRecipe = {
             "1x Bear Meat", ---------- Smoked Bear Meat
@@ -87,17 +87,17 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 49 and rank < 70 then -- 50-69
         shouldCraft = {
-            "Smoked Bear Meat",
-            "Bat Bites",
-            "Scorpid Surprise",
-            "Coyote Steak",
-            "Boiled Clams",
-            "Goretusk Liver Pie",
-            "Loch Frenzy Delight",
-            "Longjaw Mud Snapper",
-            "Rainbow Fin Albacore",
-            "Strider Stew",
-            "Spiced Wolf Meat"
+            8607,  -- Smoked Bear Meat
+            33278, -- Bat Bites
+            6413,  -- Scorpid Surprise
+            2541,  -- Coyote Steak
+            6499,  -- Boiled Clams
+            2542,  -- Goretusk Liver Pie
+            7754,  -- Loch Frenzy Delight
+            7753,  -- Longjaw Mud Snapper
+            7827,  -- Rainbow Fin Albacore
+            6416,  -- Strider Stew
+            2539,  -- Spiced Wolf Meat
         };
         shouldCraftRecipe = {
             "1x Bear Meat", ------------------------------ Smoked Bear Meat
@@ -114,15 +114,15 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 69 and rank < 80 then -- 70-79
         shouldCraft = {
-            "Smoked Bear Meat",
-            "Scorpid Surprise",
-            "Coyote Steak",
-            "Boiled Clams",
-            "Goretusk Liver Pie",
-            "Loch Frenzy Delight",
-            "Longjaw Mud Snapper",
-            "Rainbow Fin Albacore",
-            "Strider Stew"
+            8607,  -- Smoked Bear Meat
+            6413,  -- Scorpid Surprise
+            2541,  -- Coyote Steak
+            6499,  -- Boiled Clams
+            2542,  -- Goretusk Liver Pie
+            7754,  -- Loch Frenzy Delight
+            7753,  -- Longjaw Mud Snapper
+            7827,  -- Rainbow Fin Albacore
+            6416,  -- Strider Stew
         };
         shouldCraftRecipe = {
             "1x Bear Meat", ------------------------------ Smoked Bear Meat
@@ -137,15 +137,15 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 79 and rank < 110 then -- 80-109
         shouldCraft = {
-            "Smoked Sagefish",
-            "Crab Cake",
-            "Coyote Steak",
-            "Boiled Clams",
-            "Goretusk Liver Pie",
-            "Loch Frenzy Delight",
-            "Longjaw Mud Snapper",
-            "Rainbow Fin Albacore",
-            "Strider Stew"
+            25704, -- Smoked Sagefish
+            2544,  -- Crab Cake
+            2541,  -- Coyote Steak
+            6499,  -- Boiled Clams
+            2542,  -- Goretusk Liver Pie
+            7754,  -- Loch Frenzy Delight
+            7753,  -- Longjaw Mud Snapper
+            7827,  -- Rainbow Fin Albacore
+            6416,  -- Strider Stew
         };
         shouldCraftRecipe = {
             "1x Raw Sagefish", ----------------------------- Smoked Sagefish
@@ -160,17 +160,17 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 109 and rank < 130 then -- 110-129
         shouldCraft = {
-            "Big Bear Steak",
-            "Gooey Spider Cake",
-            "Smoked Sagefish",
-            "Crab Cake",
-            "Coyote Steak",
-            "Boiled Clams",
-            "Goretusk Liver Pie",
-            "Loch Frenzy Delight",
-            "Longjaw Mud Snapper",
-            "Rainbow Fin Albacore",
-            "Strider Stew"
+            3397,  -- Big Bear Steak
+            3377,  -- Gooey Spider Cake
+            25704, -- Smoked Sagefish
+            2544,  -- Crab Cake
+            2541,  -- Coyote Steak
+            6499,  -- Boiled Clams
+            2542,  -- Goretusk Liver Pie
+            7754,  -- Loch Frenzy Delight
+            7753,  -- Longjaw Mud Snapper
+            7827,  -- Rainbow Fin Albacore
+            6416,  -- Strider Stew
         };
         shouldCraftRecipe = {
             "1x Big Bear Meat", ---------------------------- Big Bear Steak
@@ -187,22 +187,22 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 129 and rank < 140 then -- 130-139
         shouldCraft = {
-            "Curiously Tasty Omelet",
-            "Hot Lion Chops",
-            "Lean Wolf Steak",
-            "Goblin Deviled Clams",
-            "Crocolisk Gumbo",
-            "Big Bear Steak",
-            "Gooey Spider Cake",
-            "Smoked Sagefish",
-            "Crab Cake",
-            "Coyote Steak",
-            "Boiled Clams",
-            "Goretusk Liver Pie",
-            "Loch Frenzy Delight",
-            "Longjaw Mud Snapper",
-            "Rainbow Fin Albacore",
-            "Strider Stew"
+            3376,  -- Curiously Tasty Omelet
+            3398,  -- Hot Lion Chops
+            15853, -- Lean Wolf Steak
+            6500,  -- Goblin Deviled Clams
+            3373,  -- Crocolisk Gumbo
+            3397,  -- Big Bear Steak
+            3377,  -- Gooey Spider Cake
+            25704, -- Smoked Sagefish
+            2544,  -- Crab Cake
+            2541,  -- Coyote Steak
+            6499,  -- Boiled Clams
+            2542,  -- Goretusk Liver Pie
+            7754,  -- Loch Frenzy Delight
+            7753,  -- Longjaw Mud Snapper
+            7827,  -- Rainbow Fin Albacore
+            6416,  -- Strider Stew
         };
         shouldCraftRecipe = {
             "1x Raptor Egg", ------------------------------- Curiously Tasty Omelet
@@ -224,13 +224,13 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 139 and rank < 175 then -- 140-174
         shouldCraft = {
-            "Curiously Tasty Omelet",
-            "Hot Lion Chops",
-            "Lean Wolf Steak",
-            "Goblin Deviled Clams",
-            "Crocolisk Gumbo",
-            "Big Bear Steak",
-            "Gooey Spider Cake"
+            3376,  -- Curiously Tasty Omelet
+            3398,  -- Hot Lion Chops
+            15853, -- Lean Wolf Steak
+            6500,  -- Goblin Deviled Clams
+            3373,  -- Crocolisk Gumbo
+            3397,  -- Big Bear Steak
+            3377,  -- Gooey Spider Cake
         };
         shouldCraftRecipe = {
             "1x Raptor Egg", ------------- Curiously Tasty Omelet
@@ -243,16 +243,16 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 174 and rank < 225 then -- 175-224
         shouldCraft = {
-            "Roast Raptor",
-            "Barbecued Buzzard Wing",
-            "Sagefish Delight",
-            "Rockscale Cod",
-            "Carrion Surprise",
-            "Giant Clam Scorcho",
-            "Mithril Head Trout",
-            "Soothing Turtle Bisque",
-            "Jungle Stew",
-            "Mystery Stew"
+            15855, -- Roast Raptor
+            4094,  -- Barbecued Buzzard Wing
+            25954, -- Sagefish Delight
+            7828,  -- Rockscale Cod
+            15863, -- Carrion Surprise
+            7213,  -- Giant Clam Scorcho
+            20916, -- Mithril Head Trout
+            3400,  -- Soothing Turtle Bisque
+            15861, -- Jungle Stew
+            15865, -- Mystery Stew
         };
         shouldCraftRecipe = {
             "1x Raptor Flesh", ---------------------------- Roast Raptor
@@ -268,12 +268,12 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 224 and rank < 250 then -- 225-249
         shouldCraft = {
-            "Monster Omelet",
-            "Tender Wolf Steak",
-            "Spiced Chili Crab",
-            "Cooked Glossy Mightfish",
-            "Filet of Redgill",
-            "Spotted Yellowtail"
+            15933, -- Monster Omelet
+            22480, -- Tender Wolf Steak
+            15915, -- Spiced Chili Crab
+            18239, -- Cooked Glossy Mightfish
+            18241, -- Filet of Redgill
+            18238, -- Spotted Yellowtail
         };
         shouldCraftRecipe = {
             "1x Giant Egg", --------------- Monster Omelet
@@ -285,9 +285,9 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 249 and rank < 285 then -- 250-284
         shouldCraft = {
-            "Juicy Bear Burger",
-            "Charred Bear Kabobs",
-            "Poached Sunscale Salmon"
+            46688, -- Juicy Bear Burger
+            46684, -- Charred Bear Kabobs
+            18244, -- Poached Sunscale Salmon
         };
         shouldCraftRecipe = {
             "1x Bear Flank", ---------- Juicy Bear Burger
@@ -296,11 +296,11 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 284 and rank < 300 then -- 285-299
         shouldCraft = {
-            "Smoked Desert Dumplings",
-            "Baked Salmon",
-            "Mightfish Steak",
-            "Lobster Stew",
-            "Runn Tum Tuber Surprise"
+            24801, -- Smoked Desert Dumplings
+            18247, -- Baked Salmon
+            18246, -- Mightfish Steak
+            18245, -- Lobster Stew
+            22761, -- Runn Tum Tuber Surprise
         };
         shouldCraftRecipe = {
             "1x Sandworm Meat", --------------------------------- Smoked Desert Dumplings
@@ -311,12 +311,12 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 299 and rank < 325 then -- 300-324
         shouldCraft = {
-            "Ravager Dog",
-            "Buzzard Bites",
-            "Blackened Trout",
-            "Feltail Delight",
-            "Broiled Bloodfin",
-            "Kibler's Bits"
+            33284, -- Ravager Dog
+            33279, -- Buzzard Bites
+            33290, -- Blackened Trout
+            33291, -- Feltail Delight
+            43761, -- Broiled Bloodfin
+            43772, -- Kibler's Bits
         };
         shouldCraftRecipe = {
             "1x Ravager Flesh", ------ Ravager Dog
@@ -328,9 +328,9 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 324 and rank < 335 then -- 325-334
         shouldCraft = {
-            "Talbuk Steak",
-            "Roasted Clefthoof",
-            "Warp Burger"
+            33289, -- Talbuk Steak
+            33287, -- Roasted Clefthoof
+            33288, -- Warp Burger
         };
         shouldCraftRecipe = {
             "1x Talbuk Venison", -- Talbuk Steak
@@ -339,11 +339,11 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 334 and rank < 350 then -- 335-349
         shouldCraft = {
-            "Talbuk Steak",
-            "Roasted Clefthoof",
-            "Warp Burger",
-            "Mok'Nathal Shortribs",
-            "Crunchy Serpent"
+            33289, -- Talbuk Steak
+            33287, -- Roasted Clefthoof
+            33288, -- Warp Burger
+            38867, -- Mok'Nathal Shortribs
+            38868, -- Crunchy Serpent
         };
         shouldCraftRecipe = {
             "1x Talbuk Venison", -- Talbuk Steak
@@ -352,27 +352,26 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
             "1x Raptor Ribs", ----- Mok'Nathal Shortribs
             "1x Serpent Meat" ----- Crunchy Serpent
         };
-
     elseif rank > 349 and rank < 375 then -- 350-374
         shouldCraft = {
-            "Baked Manta Ray",
-            "Mammoth Meal",
-            "Poached Nettlefish",
-            "Smoked Salmon",
-            "Pickled Fangtooth",
-            "Grilled Sculpin",
-            "Rhino Dogs",
-            "Worm Delight",
-            "Roasted Worg",
-            "Shoveltusk Steak",
-            "Northern Stew",
-            "Smoked Rockfin",
-            "Grilled Bonescale",
-            "Sauteed Goby",
-            "Dalaran Clam Chowder",
-            "Spicy Crawdad",
-            "Fisherman's Feast",
-            "Hot Buttered Trout"
+            45569, -- Baked Manta Ray
+            45549, -- Mammoth Meal
+            45565, -- Poached Nettlefish
+            45564, -- Smoked Salmon
+            45566, -- Pickled Fangtooth
+            45563, -- Grilled Sculpin
+            45553, -- Rhino Dogs
+            45551, -- Worm Delight
+            45552, -- Roasted Worg
+            45550, -- Shoveltusk Steak
+            57421, -- Northern Stew
+            45560, -- Smoked Rockfin
+            45561, -- Grilled Bonescale
+            45562, -- Sauteed Goby
+            58065, -- Dalaran Clam Chowder
+            33296, -- Spicy Crawdad
+            42302, -- Fisherman's Feast
+            42305, -- Hot Buttered Trout
         };
         shouldCraftRecipe = {
             "1x Imperial Mantra Ray", -------- Baked Manta Ray
@@ -396,18 +395,18 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 374 and rank < 400 then -- 375-399
         shouldCraft = {
-            "Kungaloosh",
-            "Baked Manta Ray",
-            "Mammoth Meal",
-            "Poached Nettlefish",
-            "Smoked Salmon",
-            "Pickled Fangtooth",
-            "Grilled Sculpin",
-            "Rhino Dogs",
-            "Worm Delight",
-            "Roasted Worg",
-            "Shoveltusk Steak",
-            "Dalaran Clam Chowder"
+            53056, -- Kungaloosh
+            45569, -- Baked Manta Ray
+            45549, -- Mammoth Meal
+            45565, -- Poached Nettlefish
+            45564, -- Smoked Salmon
+            45566, -- Pickled Fangtooth
+            45563, -- Grilled Sculpin
+            45553, -- Rhino Dogs
+            45551, -- Worm Delight
+            45552, -- Roasted Worg
+            45550, -- Shoveltusk Steak
+            58065, -- Dalaran Clam Chowder
         };
         shouldCraftRecipe = {
             "2x Tundra Berries, 1x Savory Snowplum", -- Kungaloosh
@@ -425,19 +424,19 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 399 and rank < 425 then -- 400-424
         shouldCraft = {
-            "Blackened Dragonfin",
-            "Dragonfin Filet",
-            "Blackened Worg Steak",
-            "Very Burnt Worg",
-            "Cuttlesteak",
-            "Firecracker Salmon",
-            "Hearty Rhino",
-            "Imperial Manta Steak",
-            "Poached Northern Sculpin",
-            "Spiced Mammoth Treats",
-            "Spicy Blue Nettlefish",
-            "Spicy Fried Herring",
-            "Tracker Snacks"
+            57441, -- Blackened Dragonfin
+            57442, -- Dragonfin Filet
+            57438, -- Blackened Worg Steak
+            45558, -- Very Burnt Worg
+            57439, -- Cuttlesteak
+            45568, -- Firecracker Salmon
+            57436, -- Hearty Rhino
+            45570, -- Imperial Manta Steak
+            45567, -- Poached Northern Sculpin
+            57440, -- Spiced Mammoth Treats
+            45571, -- Spicy Blue Nettlefish
+            57433, -- Spicy Fried Herring
+            57443, -- Tracker Snacks
         };
         shouldCraftRecipe = {
             "1x Dragonfin Angelfish, 1x Northern Spices", -- Blackened Dragonfin
@@ -456,21 +455,21 @@ addonTable.getCookingCurrentSkillLevelRecipeToCraft = function(rank)
         };
     elseif rank > 424 and rank < 450 then -- 425-449
         shouldCraft = {
-            "Gigantic Feast",
-            "Small Feast",
-            "Blackened Dragonfin",
-            "Dragonfin Filet",
-            "Blackened Worg Steak",
-            "Very Burnt Worg",
-            "Cuttlesteak",
-            "Firecracker Salmon",
-            "Hearty Rhino",
-            "Imperial Manta Steak",
-            "Poached Northern Sculpin",
-            "Spiced Mammoth Treats",
-            "Spicy Blue Nettlefish",
-            "Spicy Fried Herring",
-            "Tracker Snacks"
+            58527, -- Gigantic Feast
+            58528, -- Small Feast
+            57441, -- Blackened Dragonfin
+            57442, -- Dragonfin Filet
+            57438, -- Blackened Worg Steak
+            45558, -- Very Burnt Worg
+            57439, -- Cuttlesteak
+            45568, -- Firecracker Salmon
+            57436, -- Hearty Rhino
+            45570, -- Imperial Manta Steak
+            45567, -- Poached Northern Sculpin
+            57440, -- Spiced Mammoth Treats
+            45571, -- Spicy Blue Nettlefish
+            57433, -- Spicy Fried Herring
+            57443, -- Tracker Snacks
         };
         shouldCraftRecipe = {
             "1x Northern Spices, 2x Chunk o' Mammoth, 2x Deep Sea Monsterbelly, 2x Rockfin Grouper", -- Gigantic Feast

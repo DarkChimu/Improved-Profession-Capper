@@ -1,0 +1,1 @@
+print("[PC Locale] loading")

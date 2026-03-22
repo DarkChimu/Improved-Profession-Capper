@@ -1,59 +1,66 @@
-# About Profession Capper
-**Profession Capper** is a World of Warcraft(3.3.5) addon that will show you how to level up your **trade skills** to its cap(450) based on your current profession skill level
+﻿# Improved Profession Capper
 
-When you open your **Profession frame**, the **Profession Capper frame** will be opened too, telling you which recipe you'd better to craft next in order to reach next level of that **profession**
+**Improved Profession Capper** is a World of Warcraft (3.3.5 / WotLK) addon that tells you which recipe to craft next in order to level your trade skills to the cap (450), based on your current skill level.
 
-By default, the **Profession Capper frame** will be opened at the **Bottom Left** corner of the game screen, feel free to drag it as you want
+This is a fork of [Profession Capper](https://github.com/SamuelLira99/Profession-Capper) by [SamuelLira99](https://github.com/SamuelLira99), improved and maintained by [DarkChimu](https://github.com/DarkChimu).
 
-# Instructions
-1. Download lastest release of Profession_Capper
+When you open your **Profession frame**, the **Profession Capper frame** opens alongside it, showing you the optimal recipe to craft next. You can cycle through alternative recipes using the `<` and `>` buttons and craft directly from the addon UI.
 
-    - from [GitHub](https://github.com/SamuelLira99/Profession-Capper/releases)
+By default the frame appears at the **bottom left** corner of the screen — drag it wherever you like.
 
-    - from [bestwowaddons.com](https://bestwowaddons.com/download/profession-capper/)
+---
 
+## What's new in this fork
 
-2. Extract the file "Profession_Capper.zip"
+- **Spell ID-based recipe matching** — recipes are now looked up by spell ID instead of name string, making matching O(1) and locale-independent
+- **Localization support (i18n)** — all UI strings are now localized; Spanish (`esES` / `esMX`) is fully supported alongside English
+- **Improved unavailable recipe message** — when a recipe is not learned yet, the UI clearly says so instead of showing a generic "Unavailable"
+- **Spanish locale profession name support** — the addon correctly handles localized profession names returned by the WoW client (e.g. `"Cocina"` instead of `"Cooking"`)
+- **Bug fixes** — fixed silent Lua errors that caused the frame to not appear on certain rank ranges
 
-3. Move the new "Profession_Capper" folder to `<WoW folder>/Interface/AddOns`
+---
 
-# Professions current status
+## Installation
+
+1. Download the latest release from [GitHub](https://github.com/DarkChimu/Improved-Profession-Capper/releases)
+2. Extract the zip file
+3. Move the `Profession_Capper` folder to `<WoW folder>/Interface/AddOns`
+4. Reload the UI in-game: `/reload`
+
+---
+
+## Professions
 
 ### Primary Trade Skills
 
-`Enchanting` - Fully supported
-
-`Tailoring` - Fully supported
-
-`Blacksmithing` - Fully supported (revision pending)
-
-`Alchemy` - Fully supported (revision pending)
-
-`Engineering` - Fully supported
-
-`Jewelcrafting` - Fully supported
-
-`Leatherworking` - Fully supported (revision pending)
-
-`Inscription` - Fully supported (revision pending)
-
-### Gathering Skills
-`Herbalism` - Not supported (probably won't be)
-
-`Mining` - Not supported (low chances that it will be)
-
-`Skinning` - Not supported (probably won't be)
+| Profession | Status |
+|---|---|
+| Enchanting | Fully supported |
+| Tailoring | Fully supported |
+| Blacksmithing | Fully supported |
+| Alchemy | Fully supported |
+| Engineering | Fully supported |
+| Jewelcrafting | Fully supported |
+| Leatherworking | Fully supported |
+| Inscription | Fully supported |
 
 ### Secondary Professions
-`Cooking` - Fully supported
 
-`First Aid` - Fully supported
+| Profession | Status |
+|---|---|
+| Cooking | Fully supported |
+| First Aid | Fully supported |
+| Fishing | Not supported |
 
-`Fishing` - Not supported (probably won't be)
+### Gathering Skills
 
-# Screenshots
+Herbalism, Mining, and Skinning are not supported and likely won't be — these level up through gathering, not crafting.
 
-#### When the profession cap was already reached
+---
+
+## Screenshots
+
+#### Cap already reached
 ![Profession Capper - cap already reached](https://imgur.com/viU8cIc.jpg)
 
 #### Enchanting
@@ -83,8 +90,16 @@ By default, the **Profession Capper frame** will be opened at the **Bottom Left*
 #### First Aid
 ![Profession Capper - First Aid](https://imgur.com/voG9Ecr.jpg)
 
-#### When you didn't learn the recipe yet
+#### Recipe not learned yet
 ![Profession Capper - Recipe not learnt yet](https://imgur.com/Q2eXK6f.jpg)
 
-# Support
-You can open an issue on this repo, or mark `@SamuelLira99` on [Twitter](https://twitter.com/SamuelLira99)
+---
+
+## Credits
+
+- Original addon by [SamuelLira99](https://github.com/SamuelLira99) — [Profession-Capper](https://github.com/SamuelLira99/Profession-Capper)
+- Fork improvements by [DarkChimu](https://github.com/DarkChimu)
+
+## Support
+
+Open an issue on [this repo](https://github.com/DarkChimu/Improved-Profession-Capper/issues).
