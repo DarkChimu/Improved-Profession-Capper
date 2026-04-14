@@ -27,5 +27,14 @@ addonTable.applyLocale = function()
         L["header_label"]         = "Siguiente receta a fabricar"
         L["loaded_for"]           = "[Profession Capper] modulos cargados para"
         L["crafting"]             = "[Profession Capper] fabricando"
+    elseif locale == "frFR" then
+        L["craft_button"]         = "Fabriquer (%d)"
+        L["craft_button_unavail"] = "Indisponible"
+        L["not_learned"]          = "Non appris ou indisponible"
+        L["profession_cap"]       = "Niveau maximal du métier déjà atteint"
+        L["recipe_prefix"]        = "Recette : "
+        L["header_label"]         = "Prochaine recette à fabriquer"
+        L["loaded_for"]           = "[Profession Capper] modules chargés pour"
+        L["crafting"]             = "[Profession Capper] fabrication de"
     end
 end
