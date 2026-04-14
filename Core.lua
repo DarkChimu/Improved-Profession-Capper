@@ -51,6 +51,17 @@ local professionHandlers = {
     ["Alquimia"]      = function(r) return addonTable.getAlchemyCurrentSkillLevelRecipeToCraft(r) end,
     ["Primeros auxilios"] = function(r) return addonTable.getFirstAidCurrentSkillLevelRecipeToCraft(r) end,
     ["Cocina"]        = function(r) return addonTable.getCookingCurrentSkillLevelRecipeToCraft(r) end,
+    -- French
+    ["Enchantement"]  = function(r) return addonTable.getEnchantingCurrentSkillLevelRecipeToCraft(r) end,
+    ["Couture"]       = function(r) return addonTable.getTailoringCurrentSkillLevelRecipeToCraft(r) end,
+    ["Joaillerie"]    = function(r) return addonTable.getJewelcraftingCurrentSkillLevelRecipeToCraft(r) end,
+    ["Forge"]         = function(r) return addonTable.getBlacksmithingCurrentSkillLevelRecipeToCraft(r) end,
+    ["Travail du cuir"] = function(r) return addonTable.getLeatherworkingCurrentSkillLevelRecipeToCraft(r) end,
+    ["Ingénierie"]    = function(r) return addonTable.getEngineeringCurrentSkillLevelRecipeToCraft(r) end,
+    ["Calligraphie"]  = function(r) return addonTable.getInscriptionCurrentSkillLevelRecipeToCraft(r) end,
+    ["Alchimie"]      = function(r) return addonTable.getAlchemyCurrentSkillLevelRecipeToCraft(r) end,
+    ["Secourisme"]    = function(r) return addonTable.getFirstAidCurrentSkillLevelRecipeToCraft(r) end,
+    ["Cuisine"]       = function(r) return addonTable.getCookingCurrentSkillLevelRecipeToCraft(r) end,
 }
 
 ------------------------------------------------------------------------------------------------------------
