@@ -13,9 +13,10 @@ By default the frame appears at the **bottom left** corner of the screen — dra
 ## What's new in this fork
 
 - **Spell ID-based recipe matching** — recipes are now looked up by spell ID instead of name string, making matching O(1) and locale-independent
-- **Localization support (i18n)** — all UI strings are now localized; Spanish (`esES` / `esMX`) is fully supported alongside English
+- **Localization support (i18n)** — all UI strings are now localized; Spanish (`esES` / `esMX`) and French (`frFR`) are supported alongside English
 - **Improved unavailable recipe message** — when a recipe is not learned yet, the UI clearly says so instead of showing a generic "Unavailable"
-- **Spanish locale profession name support** — the addon correctly handles localized profession names returned by the WoW client (e.g. `"Cocina"` instead of `"Cooking"`)
+- **Spanish and French locale profession name support** — the addon correctly handles localized profession names returned by the WoW client (e.g. `"Cocina"` or `"Cuisine"` instead of `"Cooking"`)
+- **Minimal frFR ingredient support** — recipe ingredient hints remain in English in this minimal patch; only the addon UI and profession detection are localized
 - **Bug fixes** — fixed silent Lua errors that caused the frame to not appear on certain rank ranges
 
 ---
